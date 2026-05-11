@@ -97,7 +97,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(871, 503);
+            dataGridView1.Size = new Size(560, 337);
             dataGridView1.TabIndex = 4;
             // 
             // firstNameDataGridViewTextBoxColumn
@@ -181,7 +181,7 @@
             Controls.Add(buttonShowNewForm);
             Controls.Add(button1);
             Name = "UserControlAuthors";
-            Size = new Size(1177, 604);
+            Size = new Size(1194, 673);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)authorBindingSource).EndInit();
             ResumeLayout(false);

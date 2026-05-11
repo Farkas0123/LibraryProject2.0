@@ -48,6 +48,15 @@ namespace LibraryProject2._0
 
             dataGridViewTake.DataSource = q2.ToList();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (memberBindingSource.Current == null){ return; }
+            LibraryModels.Member m = (LibraryModels.Member)memberBindingSource.Current;
+
+            FormFines f1 = new FormFines(m);
+            f1.ShowDialog();
+        }
     }
     public class TakeOut()
     {

@@ -55,13 +55,13 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1241, 497);
+            dataGridView1.Size = new Size(884, 332);
             dataGridView1.TabIndex = 1;
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 14F);
-            button1.Location = new Point(1017, 35);
+            button1.Location = new Point(661, 31);
             button1.Name = "button1";
             button1.Size = new Size(224, 42);
             button1.TabIndex = 2;
@@ -72,7 +72,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 14F);
-            button2.Location = new Point(790, 30);
+            button2.Location = new Point(430, 30);
             button2.Name = "button2";
             button2.Size = new Size(210, 47);
             button2.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1265, 598);
+            ClientSize = new Size(908, 433);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);

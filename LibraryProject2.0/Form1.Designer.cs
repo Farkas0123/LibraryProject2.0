@@ -46,7 +46,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1148, 28);
+            menuStrip1.Size = new Size(870, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -97,7 +97,7 @@
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.Location = new Point(12, 142);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1122, 427);
+            panel1.Size = new Size(844, 263);
             panel1.TabIndex = 1;
             // 
             // label1
@@ -114,7 +114,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1148, 581);
+            ClientSize = new Size(870, 417);
             Controls.Add(label1);
             Controls.Add(panel1);
             Controls.Add(menuStrip1);

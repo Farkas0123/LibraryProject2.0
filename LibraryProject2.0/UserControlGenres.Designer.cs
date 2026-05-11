@@ -83,7 +83,7 @@
             listBox1.FormattingEnabled = true;
             listBox1.Location = new Point(32, 189);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(186, 364);
+            listBox1.Size = new Size(186, 264);
             listBox1.TabIndex = 3;
             // 
             // bookBindingSource
@@ -96,7 +96,7 @@
             button1.BackColor = Color.Yellow;
             button1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 238);
             button1.ForeColor = Color.FromArgb(192, 0, 0);
-            button1.Location = new Point(344, 355);
+            button1.Location = new Point(344, 205);
             button1.Name = "button1";
             button1.Size = new Size(351, 198);
             button1.TabIndex = 4;
@@ -108,7 +108,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            label3.Location = new Point(344, 189);
+            label3.Location = new Point(344, 116);
             label3.Name = "label3";
             label3.Size = new Size(167, 28);
             label3.TabIndex = 5;

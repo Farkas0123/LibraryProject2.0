@@ -1,5 +1,4 @@
 ﻿using ClosedXML.Excel;
-using DocumentFormat.OpenXml.Spreadsheet;
 using LibraryProject2._0.LibraryModels;
 using System;
 using System.Collections.Generic;
@@ -43,6 +42,7 @@ namespace LibraryProject2._0
                         Description = x.Description,
                         Publisher = x.Publisher,
                         PublishYear = (int)x.PublishedYear,
+                        //Genre = string.Join(", ", x.Genres.Select(g => g.GenreName))
                         Genre = string.Join(", ", x.Genres.Select(g => g.GenreName))
                     };
             act = q.ToList();

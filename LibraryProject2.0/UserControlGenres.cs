@@ -47,8 +47,6 @@ namespace LibraryProject2._0
                     where book.BookId == x.BookId
                     select x;
             label3.Text = $"Short description:\n{q.ToList().First().Description}";
-
-
         }
 
         private void button1_Click(object sender, EventArgs e)

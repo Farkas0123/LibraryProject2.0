@@ -38,8 +38,8 @@ namespace LibraryProject2._0
                         Title = x.Book.Title,
                         Author = x.Book.Authors.First().FirstName + " " + x.Book.Authors.First().LastName,
                         Status = x.StatusCodeNavigation.Description,
-                        Start = x.TakeOutRecords.First().StartDate,
-                        End = x.TakeOutRecords.First().DueDate,
+                        Start = x.TakeOutRecords.First().StartDate,//another query before that
+                        End = x.TakeOutRecords.First().DueDate,    //could find all the takeout records of the book item and find the one with the latest due date
                         Return = x.TakeOutRecords.First().ReturnDate
                     };
             dataGridView1.DataSource = q.ToList();

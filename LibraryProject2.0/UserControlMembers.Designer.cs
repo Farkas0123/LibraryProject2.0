@@ -36,6 +36,7 @@
             dataGridViewTake = new DataGridView();
             label4 = new Label();
             button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)memberBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewTake).BeginInit();
             SuspendLayout();
@@ -68,7 +69,7 @@
             listBox1.FormattingEnabled = true;
             listBox1.Location = new Point(25, 119);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(211, 504);
+            listBox1.Size = new Size(211, 344);
             listBox1.TabIndex = 2;
             // 
             // memberBindingSource
@@ -78,12 +79,12 @@
             // 
             // dataGridViewTake
             // 
-            dataGridViewTake.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            dataGridViewTake.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridViewTake.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewTake.Location = new Point(441, 119);
             dataGridViewTake.Name = "dataGridViewTake";
             dataGridViewTake.RowHeadersWidth = 51;
-            dataGridViewTake.Size = new Size(750, 504);
+            dataGridViewTake.Size = new Size(448, 345);
             dataGridViewTake.TabIndex = 4;
             // 
             // label4
@@ -109,11 +110,25 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Yellow;
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            button2.ForeColor = Color.Red;
+            button2.Location = new Point(474, 46);
+            button2.Name = "button2";
+            button2.Size = new Size(187, 40);
+            button2.TabIndex = 8;
+            button2.Text = "Member's fines";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // UserControlMembers
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 192);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(dataGridViewTake);
@@ -121,7 +136,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "UserControlMembers";
-            Size = new Size(1207, 638);
+            Size = new Size(905, 479);
             ((System.ComponentModel.ISupportInitialize)memberBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewTake).EndInit();
             ResumeLayout(false);
@@ -139,5 +154,6 @@
         private Label label3;
         private Label label4;
         private Button button1;
+        private Button button2;
     }
 }
